@@ -21,7 +21,7 @@ class Nav extends HTMLElement {
                     <div class="collapse navbar-collapse" id="navbarResponsive">
                         <ul class="navbar-nav ms-auto my-2 my-lg-0">
                             <li class="nav-item"><a class="nav-link ${document.title === homepage ? "on-page" : ""}" href="${document.title === homepage ? "#Mission" : "index.html#Mission"}">Our Mission</a></li>
-                            <li class="nav-item"><a class="nav-link ${document.title === "About Us" ? "active on-page" : ""}" href="aboutus.html">About Us</a></li>
+                            <li class="nav-item"><a class="nav-link ${document.title === "About Us" ? "active on-page" : ""}" href="mission.html">About Us</a></li>
                             <li class="nav-item">
                             <li class="nav-item"><a class="nav-link ${document.title === "Projects" ? "active on-page" : ""}" href="projects.html">Projects</a></li>    
                             <li class="nav-item"><a class="nav-link ${document.title === "Team Activities" ? "active on-page" : ""}" href="activity.html">Team Activity</a></li>
